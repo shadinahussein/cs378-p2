@@ -1,0 +1,144 @@
+body {
+    padding-top: 10px;
+    margin: 2px;
+  }
+
+header.row.pt-1.text-center {
+  padding-bottom: 25px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.subheading {
+    color: tomato;
+    font-size: x-large;
+    text-align: center;
+    margin: 1px;
+}
+
+.subheading1 {
+  text-align: center;
+  margin: 10px;
+}
+
+.single-menu {
+    display: flex;
+    align-items: center;
+}
+
+.single-menu img {
+  /* aspect-ratio: 1; */
+  width: 100px;
+  height: 100px;
+  padding: 4px;
+  border-bottom: 1px;
+  margin-right: 25px;
+  margin-left: 35px;
+  margin-bottom: 22px;
+  margin-top: 22px;
+  
+}
+
+.single-menu img:hover {
+  opacity: 0.5;
+}
+
+.single-menu .menu-discription {
+    text-transform: capitalize;
+    font-family: fantasy;
+    font-size: 12px;
+    float: left;
+    width: 80%;
+}
+
+.single-menu .menu-discription span {
+  color: tomato;
+  float: right;
+  font-weight: 100;
+  text-align: right;
+}
+
+.manageAmount {
+  float: right;
+  display: flex;
+  align-items: center;
+}
+
+.manageAmount .button {
+  border: 1px solid;
+  /* border-radius: 80%; */
+  width: 20px;
+  
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 12px;
+  margin: 2px;
+}
+
+.manageAmount input {
+  width: 40px;
+  padding: 3px 10px;
+  margin: 0 10px;
+}
+
+#displayCounter {
+  display: inline-block;
+}
+
+
+
+#increment{
+  border-width: 1px;
+  border-radius: 80%;
+  text-align: center;
+  font-size:1em;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: bold;
+  background-color: transparent;
+  margin: 5px;
+
+}
+
+#decrement{
+  border-width: 1px;
+  border-radius: 80%;
+  text-align: center;
+  background-color: transparent;
+  margin: 5px;
+}
+
+
+.row.orderSummary {
+  margin-left: inherit;
+  margin-right: 0px;
+}
+
+
+.orderButtons {
+  display: inherit;
+  float: right;
+  margin-left: 44px;
+  padding: 3px;
+}
+
+
+button.reset {
+  background-color: rgb(173, 186, 191);
+  text-align: center;
+  border-radius: 15px;
+  border-width: 1px;
+  margin: 4px 5px;
+  font-family: initial;
+  font-size: inherit;
+}
+
+button.order {
+  background-color: rgb(149, 200, 220);
+  text-align: center;
+  border-radius: 15px;
+  border-width: 1px;
+  margin: 4px 5px;
+  font-family: initial;
+  font-size: inherit;
+}
