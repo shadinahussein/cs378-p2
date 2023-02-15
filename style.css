@@ -7,21 +7,27 @@ input::-webkit-inner-spin-button {
 body {
     padding-top: 10px;
     margin: 2px;
+    height: 90vh;
   }
+
+/* header{
+  padding-bottom: 25px;
+  margin-left: 30px;
+  margin-right: 30px;
+} */
 
 header.row.pt-1.text-center {
   padding-bottom: 25px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
-
 .subheading {
     color: tomato;
     font-size: x-large;
     text-align: center;
     margin: 1px;
 }
-
 .subheading1 {
   text-align: center;
   margin: 10px;
@@ -55,6 +61,9 @@ header.row.pt-1.text-center {
     font-size: 12px;
     float: left;
     width: 80%;
+    
+    /* padding: 20px; */
+
 }
 
 .single-menu .menu-discription span {
@@ -62,6 +71,9 @@ header.row.pt-1.text-center {
   float: right;
   font-weight: 100;
   text-align: right;
+
+  /* display: inline-block; */
+
 }
 
 .manageAmount {
@@ -115,6 +127,13 @@ header.row.pt-1.text-center {
 }
 
 
+/* .orderTotal {
+  display: inline-block;
+  width: 80%;
+  text-align: center;
+  float: right;
+}  */
+
 .row.orderSummary {
   margin-left: inherit;
   margin-right: 0px;
@@ -122,10 +141,9 @@ header.row.pt-1.text-center {
 
 
 .orderButtons {
-  display: inherit;
-  float: right;
-  margin-left: 44px;
-  padding: 3px;
+  display: inline-block;
+  padding: 1px;
+  text-align: right;
 }
 
 
@@ -136,7 +154,7 @@ button.reset {
   border-width: 1px;
   margin: 4px 5px;
   font-family: initial;
-  font-size: inherit;
+  /* font-size: inherit; */
 }
 
 button.order {
@@ -146,5 +164,5 @@ button.order {
   border-width: 1px;
   margin: 4px 5px;
   font-family: initial;
-  font-size: inherit;
+  /* font-size: inherit; */
 }
