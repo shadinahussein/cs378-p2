@@ -25,8 +25,6 @@
       <div class="subheading">Delicious, From-Scratch Recipes Close at Hand</div>
       <div class="subheading1"><em>The fresh choice of UT!</em></div>
         
-      <!-- <div class="menue" > -->
-        <!-- row -->
         <div class="row single-menu">
           <img src="img/mac&cheese.jpg" alt="Mac and Cheese">
           <div class="col menu-discription">
@@ -74,7 +72,6 @@
             </div>
           </div>
         </div>
-    <!-- </div> -->
     
     <div class="container">
       <div class="row orderSummary">
@@ -84,10 +81,11 @@
               <span id ="subtotalPrice"> 0 </span>
             </p>
         </div>
-        <div class = "col">
+        <div class = "col orderButtons">
               <button class="order" onclick="placeOrder(subtotalPrice.id, 'itemQty', 'itemName')">Order</button>
               <button class="reset" onclick="cancelOrder(subtotalPrice.id, 'itemQty')">Clear All</button>
-        </div>  
+        </div> 
+         
         
       </div>
     </div>
@@ -95,3 +93,4 @@
   </div>
   </body>
 </html>
+
